@@ -45,6 +45,11 @@
     margin-top: 40px;
 }
 
+.footer > img  {
+    width: 136px;
+    height: 32px;
+}
+
 @media (max-width: 800px) {
     .footer > img {
         display: none;
