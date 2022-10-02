@@ -58,12 +58,15 @@
     left: -21px;
 }
 
-.seguros-item a {
-    grid-column: 1/ -1;
+#seguros .seguros {
+    padding-top: 0px;
 }
+
+.seguros-item a {
 
 @media (max-width: 800px) {
     .seguros {
     grid-template-columns: 1fr;
     }
+}
 }
