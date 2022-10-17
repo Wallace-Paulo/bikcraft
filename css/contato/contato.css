@@ -66,26 +66,6 @@
     background: var(--cor-0) url(../../img/dec/bottom-right.svg) no-repeat bottom 20px right 20px;
 }
 
-.form {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 20px;
-}
-
-.form .col-2 {
-    grid-column: span 2;
-}
-
-.form input[type="text"], .form input[type="email"], .form textarea {
-    font: 400 1rem/1.5 "Roboto", sans-serif;
-    background: var(--cor-1);
-    border: 1px solid var(--cor-2);
-    padding: 12px;
-    border-radius: 4px;
-    width: 100%;
-    box-sizing: border-box;
-}
-
 
 .lojas {
     display: grid;
@@ -136,4 +116,14 @@
 
 .lojas-tempo img {
     width: 32px;
+}
+
+@media (max-width: 800px) {
+    .contato {
+        grid-template-columns: 1fr;
+    }
+
+    .lojas {
+        grid-template-columns: 1fr;
+    }
 }
