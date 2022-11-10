@@ -128,3 +128,18 @@
 .seguro-conteudo p {
     margin-bottom: 20px;
 }
+
+
+@media (max-width: 900px) {
+.footer {
+    grid-template-columns: 1fr;
+}
+
+.footer-logo {
+    width: 200px;
+}
+
+.bicicleta-comprar span {
+    font-size: 1rem;
+    }
+}
